@@ -1,0 +1,9 @@
+﻿<h2>@ViewBag.Name</h2>
+
+<img src=@ViewBag.Image width="400" />
+
+<button onclick="getElementById('price').innerText = '@ViewBag.usedCost'">Used Price</button>
+
+<button onclick="getElementById('price').innerText = '@ViewBag.newCost'">New Price</button>
+
+<p id="price"></p>
